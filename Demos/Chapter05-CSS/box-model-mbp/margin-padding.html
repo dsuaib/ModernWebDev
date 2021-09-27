@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Margins and Padding</title>
+    <style>
+        body {
+            font-size: 1.2em
+        }
+
+        p {
+            border: 1px solid black;
+            width: 200px;
+            height: 200px;
+            display: inline-block
+        }
+
+        div {border: 1px solid blue; width:750px;margin: 0px; padding: 0px}
+
+        p {
+            border-color: green;
+            border-width: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Margins and Padding</h1>
+<div>
+        <p style="margin-top:10px;padding-top:5px;padding-left:5px">
+            margin-top:10px;<br />padding-top:5px;<br />padding-left:5px</p>
+        <p style="margin-top:5px;margin-left:20px;margin-right:20px;padding-top:15px;padding-left:5px">
+            margin-top:5px;<br/>margin-left:20px;<br />margin-right:20px;<br />padding-top:15px;<br />padding-left:5px</p>
+        <p style="margin-left:5px;padding-top:5px;padding-left:50px">
+            margin-top:5px;<br/>margin-bottom:5px;<br/>margin-left:5px;<br />padding-top:5px;<br />padding-left:50px</p>
+        <!-- <p style="margin-top:-10px;padding-top:5px;padding-left:5px">
+            margin-top:-10px;<br />padding-top:5px;<br />padding-left:5px</p> -->
+    </div>
+    <hr />
+
+    <div>
+    <p>Default values</p>
+    <p>Default values</p>
+    <p>Default values</p>
+</div>
+
+
+</body>
+
+</html>

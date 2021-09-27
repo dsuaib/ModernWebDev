@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home Page</title>
+        <!-- <meta charset="UTF-8"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <script>
+            console.log("print me!");
+            // console.log("im commented out");
+        </script>
+        <style>
+           p {color: red;
+              /* background-color: white */
+              }
+       </style>
+    </head>
+    <body>
+        <header class="masthead">
+            <h3>Simple Demo</h3>
+            <nav>
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="../../">Demos Index</a></li>
+                </ul>
+            </nav>
+            <br />
+        </header>
+        
+        <main>
+            <header>Welcome to class, in <span id="targetDate"></span></header>
+
+            <p class="important">An important paragraph</p>
+
+            
+        </main>
+        <script>
+            document.getElementById("targetDate").innerText = new Date().getFullYear();
+            
+          </script>
+    </body>
+</html>
