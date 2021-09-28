@@ -14,7 +14,7 @@
 
 1. In your WIP folder create a folder called `html`.
 
-1. Add an HTML file called `index.html` by right-clicking the html folder and choosing `new file`.
+1. To this new **html** folder, add an HTML file called `index.html` by right-clicking the html folder and choosing `new file`.
 
 1. In this new blank file start typing `html` - and choose the template with html:5 
     
@@ -88,7 +88,7 @@
 
 16. While viewing the MDN website, right click in displayed browser window and choose `View Source`.  Scroll or use control-F to find the meta description - you should see the same text as what was displayed in the search results. 
 
-17. Mark your work as complete and help others. We retain more by helping others!
+17. Mark your work as complete and help others or work on the bonus. We retain more by helping others!
 
 ## Bonus
 
@@ -107,7 +107,7 @@
 
 1. Copy the generated code into the `<head>` element of your html file. 
 
-1. Download the zip file and use Windows Explorer to extract the files into `\html\favicon`. (Right-click to extract files from context menu)
+1. Download the zip file and use Windows Explorer to extract the files into your `\html\favicon`. (Right-click to extract files from context menu)
 
 ## adjust relative paths
 
