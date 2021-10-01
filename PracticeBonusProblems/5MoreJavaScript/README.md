@@ -1,20 +1,10 @@
 # Extra Practice: JavaScript
 
-- [Extra Practice: JavaScript](#extra-practice-javascript)
-    - [Overview](#overview)
-    - [JavaScript objects](#javascript-objects)
-    - [Get High/Low temps for the week](#get-highlow-temps-for-the-week)
-    - [ES6 For Each](#es6-for-each)
-    - [AJAX Practice load JSON data from JSON server](#ajax-practice-load-json-data-from-json-server)
-    - [Manipulate CSS with JavaScript](#manipulate-css-with-javascript)
-
-
-### Overview
-
-* Practice working with JavaScript
-
-
-
+- [JavaScript objects](#javascript-objects)
+- [Get High/Low temps for the week](#get-highlow-temps-for-the-week)
+- [ES6 For Each](#es6-for-each)
+- [AJAX Practice load JSON data from JSON server](#ajax-practice-load-json-data-from-json-server)
+- [Manipulate CSS with JavaScript](#manipulate-css-with-javascript)
 
 
 ### JavaScript objects
