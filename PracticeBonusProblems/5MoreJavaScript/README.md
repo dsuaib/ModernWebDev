@@ -6,9 +6,10 @@
 - [AJAX Practice load JSON data from JSON server](#ajax-practice-load-json-data-from-json-server)
 - [Manipulate CSS with JavaScript](#manipulate-css-with-javascript)
 
+## JavaScript objects
 
-### JavaScript objects
 1. Create an object literal to represent one band:
+
     ```javascript
     let band1 = {
             name : "Pink Floyd",
