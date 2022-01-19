@@ -8,7 +8,7 @@ package-lock.json
 
 # IDE Config
 .idea
-.vscode
+# .vscode
 
 # OS specifics
 .DS_Store
