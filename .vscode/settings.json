@@ -18,5 +18,9 @@
         "titleBar.inactiveBackground": "#00b3e699",
         "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.color": "#00b3e6"
+    "peacock.color": "#00b3e6",
+    "cSpell.words": [
+        "Claypool",
+        "Oysterhead"
+    ]
 }
