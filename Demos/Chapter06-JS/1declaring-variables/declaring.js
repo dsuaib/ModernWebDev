@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /*
 Everything in between the stars and 
 slashes is a comment.
@@ -13,24 +14,33 @@ var someVariable = 'a'; //Can happen when combining scripts
 someVariable = true;    //Was this meant to be changed?
 
 let changingValue = true;
-const pi = 3.14;
-const myMother = {
+let pi = 3.14;
+let myMother = {
     name: 'Mary',
     age: 82
 }
+
+
+changingValue = false;
+pi = 3.1415926535;
+myMother = {
+    name: 'Mary',
+    age: 82
+};
+myMother.age++;
 
 const cantPointToSomethingElse = new Date();
 // cantPointToSomethingElse = 3;
 
 {
-    let x = 23;
-    var y = 24;
-    const z = 25;
+    var x = 23;
+    const y = 24;
+    let z = 25;
 }
 
-// X is not defined console.log('​x', x);
-// Z is not defined console.log('​z', z);
+console.log('​x', x);
 console.log('​y', y);
+console.log('​z', z);
 
 let b; console.log(typeof b);
 b = null; console.log(typeof b);
@@ -43,9 +53,9 @@ console.log(abc);
 console.groupEnd();
 
 console.groupCollapsed('Numbers...');
-let z = 3.13; console.log(typeof z);
-let divideByZero = (z / +0); console.log('(z/+0)=' + divideByZero);
-divideByZero = (z / -0); console.log('(z/-0)=' + divideByZero);
+let zz = 3.13; console.log(typeof z);
+let divideByZero = (zz / +0); console.log('(zz/+0)=' + divideByZero);
+divideByZero = (zz / -0); console.log('(zz/-0)=' + divideByZero);
 
 let bigNum = Number.MAX_VALUE;
 let tryBigger = bigNum * 2; console.log("Too big? " + tryBigger);

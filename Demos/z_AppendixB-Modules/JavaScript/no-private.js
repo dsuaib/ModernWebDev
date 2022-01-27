@@ -1,7 +1,8 @@
-const myMother = {
+const 
+myMother = {
     name: 'Mary',
-    age: 82
-}
+    age: 83
+};
 
 //this is illegal
 //myMother = { name: 'Lucy', age: 61 };
