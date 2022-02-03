@@ -1,0 +1,8 @@
+@media screen{
+header {background-color: orange;}
+body {color: red;}
+h2 {color: green;}
+header h2{color: black;}
+p {color: blue;}
+p.two {color: black}
+}
